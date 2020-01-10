@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+
+.name{
+	position: fixed;
+	width: 100%;
+	background-color: grey;
+	text-transform:uppercase;
+	opacity:.9;
+	text-align: center;
+	font-size:20px;
+	height: 150px;
+	border: 5px double black;
+}
+.links{
+	position: fixed;
+	margin-top:50px ;
+	width:100%;
+	text-align: center;
+	color:black;
+}
+.back{
+	display: inline-block;
+	margin: 10px;
+	width: 102px;
+	background-color: white;
+	padding: 5px;
+	border: solid black;
+	opacity: .9;
+}
+.block2{
+	display: inline-block;
+	margin: 10px;
+	width: 102px;
+	padding: 5px;
+	background-color: white;
+	border: solid black;
+	opacity: .9;
+
+
+}
+.download{
+	display: inline-block;
+	margin: 10px;
+	width: 102px;
+	padding: 5px;
+	background-color: white;
+	border: solid black;
+	opacity: .9;
+
+
+}
+.block1{
+	position: static;
+	margin-top: 150px;
+}
+.block{
+	margin-top: 50	px;
+}
+.buttons{
+	padding: 0;
+}

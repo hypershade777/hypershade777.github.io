@@ -1,0 +1,142 @@
+*{	
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+	margin: 0;
+	font-family: Tahoma;
+}
+.logo{
+	border: 2px solid black;
+	height: 100px;
+	background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
+}
+.logo h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	color:white;
+	position: relative;
+	text-shadow: black 3px 2px;
+	margin-top: 25px;
+	font-weight: 900;
+}
+.topline{
+	margin-bottom: 10px;
+	background-color: grey;
+	border: 2px solid black;
+	padding: 15px;
+	vertical-align: top;
+	display: flex;
+	justify-content: center;
+
+}
+.second-heading{
+	text-transform: uppercase;
+	font-size: 29px;
+	font-weight: 900;
+	color:yellow;
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	position: relative;
+	top:5px;
+	margin-right: 5%;
+}
+.search{
+	border: 2px solid black;
+	float: right;
+	padding: 5px;
+	border-color: black;
+	display: inline-block;
+	width: 30%;
+	bottom: 4px;
+	margin-left: 5%;
+	
+}
+.links{
+	display: flex;
+	flex-direction: row;
+	width: 30%;
+	justify-content:center;
+}
+.links button{
+	border: 1px solid black;
+	border-radius: 0px;
+	margin: 5px;
+	width: 33%;
+	background-color: white;
+	padding: 3px;
+}
+
+.jopa{
+	display: flex;
+	justify-content: space-between;
+	margin-left:1%;
+	padding:10px;
+	height: 220px;
+}
+.jopa p{
+	padding: 10px;
+}
+.firsttext{
+	width:25%;
+	display:inline-block;
+	border: 5px double black;
+	overflow: auto;
+	background: blue;
+	color: yellow;
+}
+.text-2{
+	width: 25%;
+	display: inline-block;
+	float: center;
+	border: 5px double black;
+	overflow: auto;
+	background: pink;
+	color: white;
+
+}
+.ukr{
+	width: 25%;
+	display: inline-block;
+	float: right;
+	border: 5px double black;
+	overflow: auto;
+	background: yellow;
+	color: blue;
+}
+.letter{
+	font-size: 20px;
+	color: red;
+	font-weight: 1000;
+}
+.sing{
+	background-color: blue;
+	border-radius: 10px;
+	width: 250px;
+	text-align: center;
+
+}
+.password{
+	display: inline-block;
+	float: center;
+
+}
+.sing button{
+	border: 1px solid black;
+	margin: 5px 5px;
+	font-size:15px;
+}
+.sing p{
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: 5px;
+	color: white;
+	text-shadow: black 4px 3px;
+}
+.sing input{
+	display: block;
+	margin: 12px 32px;
+	font-size: 15px;
+}
